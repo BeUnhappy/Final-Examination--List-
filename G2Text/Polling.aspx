@@ -119,7 +119,7 @@
                         <td><%#Eval("ZBName")%></td>
                         <%-- 保留两位小数 --%>
                         <td><%#Convert.ToDecimal(Eval("ZBPrice").ToString()).ToString("F2")%></td>
-                        <td><asp:Image ID="Image1" runat="server" ImageUrl='<%#Eval("ZBImage")%>' Width="" Height="30" /></td>
+                        <td><asp:Image ID="Image1" runat="server" ImageUrl='<%#Eval("ZBImage")%>' Width="65" Height="30" /></td>
                         <td><%#Eval("Xianshi")%></td>
                         <td>
                             <%-- 客户端点击事件--OnClientClick --%>
