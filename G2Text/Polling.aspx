@@ -92,7 +92,7 @@
         </div>
 
         <div id="right">
-            <label id="ziti2">数据显示</label>
+            <label id="ziti2">单表数据显示</label>
             <div class="style">
                 <asp:Label ID="lbl_name" runat="server" Text="装备名称："></asp:Label>
                 <asp:TextBox ID="text_name" runat="server"></asp:TextBox>
